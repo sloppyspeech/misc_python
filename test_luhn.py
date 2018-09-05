@@ -2,9 +2,6 @@ import unittest
 import luhns_number as ln
 
 class TestLuhn(unittest.TestCase):
-
-    def __repr__(self):
-        return ''
     
     def test_luhn(self):
         self.assertEqual(ln.get_check_digit(53461861341123),4)

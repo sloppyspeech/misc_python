@@ -15,7 +15,10 @@ class LuhnsNumber(object):
 
     '''
     def __init__(self,p_inp):
-        self.p_inp=p_inp
+        if type(p_inp) not in [int]:
+            raise TypeError('Invalid Input,Input Should be Integers Only')
+        else:
+            self.p_inp=p_inp
 
     def get_check_digit(self):
         num=[ int(d) for d in str(self.p_inp)]
@@ -39,3 +42,4 @@ if __name__=='__main__':
     print(luhns_num.get_check_digit())
     luhns_num=LuhnsNumber(534618613411238)
     print(luhns_num.is_valid())
+    luhns_num=LuhnsNumber('Test')

@@ -16,6 +16,7 @@ class TestLuhn(unittest.TestCase):
         self.assertTrue(luhns_num.is_valid())
         luhns_num=ln.LuhnsNumber(35693803564380)
         self.assertFalse(luhns_num.get_check_digit()==7)
+        #
         luhns_num=ln.LuhnsNumber(356938035643807)
         self.assertFalse(luhns_num.is_valid())
         #

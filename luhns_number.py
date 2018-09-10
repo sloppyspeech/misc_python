@@ -5,11 +5,11 @@ take the number to be validated e.g. acc no                           23420894
 double every alternate digit if more than 9 subtract 9 i.e.           26440798
 add all the digits 2+6+4+2+0+7+9+8 = 40 
 Multiply the sum by 9 :40*9 = 360 
-tenths digit is the luhns number i.e. 0 in this case
+tenths digit is the luhns number i.e. 0 in this case.
 '''
 class LuhnsNumber(object):
     '''
-        number passed to get_check_digit will generate and return check digit
+        number passed to get_check_digit will generate and return check digit.
         number passed to is_valid will check if the last digit of the number is valid 
           check digit based on Luhns Algoritm
 

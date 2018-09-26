@@ -33,8 +33,7 @@ def get_primes_by_sieve(input_num):
         except IndexError:
             print("Index Error **********")
             print("{0}".format(idx))
-            print(inp)
-            print(len(inp))
+            print("{0} {1}".format(inp,len(inp)))
             exit(1)
         for i,v in enumerate(inp,divisor):
             if v%divisor==0 and v!=divisor:

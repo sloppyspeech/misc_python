@@ -1,6 +1,15 @@
 import argparse
 
 def is_prime(inp=0):
+    """[summary]
+    
+    Keyword Arguments:
+        inp {int} -- [description] (default: {0})
+    
+    Returns:
+        [type] -- [description]
+    """
+
     if(inp==0 or inp==1 or inp==2 or inp==3 or inp==5 or inp==7 ):
         return True
     elif (inp%2==0 or inp%3==0 or inp%5==0 or inp%7==0):
@@ -14,13 +23,14 @@ def is_prime(inp=0):
         return True
 
 def get_primes_by_sieve(input_num):
-    """"Get List of All primes by using sieve of eratosthenes"
+    """
+    Return List of All primes by using sieve of eratosthenes
     
     Arguments:
         input_num {int} -- Number upto which the list of primes to be calculated
     
     Returns:
-        [list] -- [list of all nums below the input value]
+        [list of prime numbers] -- [list of all nums below the input value]
     """
     inp=[i for i in range(input_num)]
     inp.pop(0)
@@ -48,4 +58,5 @@ if __name__=='__main__':
     args=parser.parse_args()
     sieve = get_primes_by_sieve(args.input_num)
     print("List of Primes below than {0} => {1}".format(args.input_num,sieve))
+    print(get_primes_by_sieve.__doc__)
  

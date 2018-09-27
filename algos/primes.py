@@ -55,20 +55,28 @@ def get_primes_by_sieve(input_num):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument(
+<<<<<<< HEAD
         "-s", 
         "--isprime",
         dest="is_prime",
         type=int ,
         help="Check if the given number is prime or not")
+=======
+        "-s", "--isprime",dest="is_prime",type=int ,help="Check if the given number is prime or not")
+>>>>>>> 3969137cf0a0b3d209de43af501f06ed7d0cbd40
     parser.add_argument(
         "-a",
         "--allprimes",
         dest="all_prime",
         type=int,
         help="Get all prime numbers below this input")
+<<<<<<< HEAD
         
     args=parser.parse_args()
 
+=======
+    args=parser.parse_args()
+>>>>>>> 3969137cf0a0b3d209de43af501f06ed7d0cbd40
     if args.is_prime:
         input_num=args.is_prime
         print("Is {0} Prime ? {1}".format(input_num,is_prime(input_num)))

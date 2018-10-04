@@ -10,6 +10,7 @@ def is_prime(inp=0):
         [type] -- [description]
     """
 
+    #Few short-cuts
     if(inp==0 or inp==1 or inp==2 or inp==3 or inp==5 or inp==7 ):
         return True
     elif (inp%2==0 or inp%3==0 or inp%5==0 or inp%7==0):

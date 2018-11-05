@@ -1,7 +1,7 @@
 import json
 import sys
 import requests as req
-import chardet  #To get the character set type
+import chardet  #To get the characterset type
 
 def get_quote():
     json_data=req.post("http://api.forismatic.com/api/1.0/",data={"method":"getQuote","lang":"en","format":"json"})

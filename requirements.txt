@@ -19,3 +19,74 @@ requests==2.19.1
 six==1.11.0
 toml==0.9.4
 urllib3==1.23
+Discussion Points
+
+    Review of Previous Action Items: The team reviewed action items from the last meeting. They discussed the progress of setting up GPS control reviews with BI executors and validators, the status of the SLS document, and the long-standing issue of on-call support allowance for support teams.
+
+    Portfolio and Team Updates: The meeting shifted to a discussion of portfolio management, starting with an update on the D&T team's current headcount and hiring. This led to a debate about how to account for a new micro-strategy position replacing a BI admin role, with one person arguing it should be a ramp-down and a new position, not a simple replacement.
+
+    Operational Updates (Big Data & Database): The team discussed operational highlights from the past month, which was noted as a "vacation month," leading to less activity. A key point of discussion was the slowness of the Lucid platform from August to early September, which caused numerous batch failures and required extra weekend work from the support team.
+
+    Project Updates: The group reviewed progress on several key projects across different teams.
+
+        CAVD: The team shared updates on UAT completion for HQ and FM, and ongoing FIT testing for CAU.
+
+        BAVD: The discussion focused on the IDMC migration, with an emphasis on optimization efforts that saved significant batch run time.
+
+        Soccer: An update was given on the SIT completion for PNP and HOP projects.
+
+        BIA: The team discussed the completion of the monitoring dashboard for Harmony.
+
+        Java: The team provided an update on the IBDA and GDPR-related projects, highlighting a production fix for a long-running job.
+
+    Admin Team and Staffing: The conversation highlighted the successful migration of admin activities from Paris to Bangalore for the Snowflake team to improve turnaround time. It was noted that two team members, Sandeep and Jay Sankara, had completed their Snowflake certification. A new hiring need was also discussed for a micro-strategy person.
+
+    EDC Team: The discussion centered on the EDC team's move to Pune and their successful strategy change for SIT testing.
+
+✅ Decisions Made
+
+    Portfolio Reporting Format: The team decided to revert to the old portfolio reporting format 🔄. The new format will include updates on the landing plan, project updates, and people updates.
+
+        Rationale: The previous format, which focused on org structure and key projects, was changed back to the older, more comprehensive format that includes all major updates.
+
+    Snowflake Admin Activities: It was decided to move some Snowflake admin activities to the Bangalore team to improve turnaround time and reduce dependency on the Paris-based team.
+
+        Rationale: This decision was made to enhance efficiency and build in-house expertise within the Bangalore team.
+
+📌 Action Items
+
+    GPS Control Reviews: Follow up with the BI team to ensure the control reviews are created and progress is being made.
+
+        Responsible: Dominic
+
+    SLS Document: Check on the progress of the SLS document with Devakri and the PDI team after October 6th.
+
+        Responsible: Smita (implied)
+
+    On-Call Support Allowance: Continue to investigate and gather concrete numbers for the on-call support allowance, as the figures received so far are inconsistent. This is a critical and long-pending item.
+
+        Responsible: KV and Ravi
+
+    Open Positions: A snapshot of all open positions should be created.
+
+        Responsible: Unspecified
+
+    Harmony Monitoring Dashboard: The team will look at the new dashboard that has been completed and is ready for the pilot version.
+
+        Responsible: Unspecified
+
+📊 Data & Insights
+
+    Team Ramp-Up: The India D&T team's landing count increased by +4, from 83 to 87. This was primarily due to four new positions from SSM and one new micro-strategy position.
+
+    System Optimization: The BAVD team's optimization efforts resulted in a 2-hour reduction in the monthly batch run time for the "normated workflow" and an overall 3-hour reduction for the CAVD team. This was highlighted as a direct cost-saving measure on the Teleta platform.
+
+    Platform Incident: An issue with the Lucid platform from August to mid-September was caused by the unanticipated decommissioning of Red Hat nodes, which led to applications failing due to a lack of memory. The issue was resolved after the decommissioning was stopped on September 17th.
+
+🔄 Follow-Up
+
+    Next Meeting: The team agreed to continue with the newly decided portfolio reporting format in the upcoming meetings.
+
+    Project Checkpoint: A follow-up on the SLS document and the on-call allowance is necessary due to their pending status.
+
+    Dashboard Review: A dedicated review or presentation of the new Harmony monitoring dashboard is planned for a future meeting.
